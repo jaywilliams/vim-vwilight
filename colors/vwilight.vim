@@ -53,7 +53,7 @@ hi String ctermfg=107 ctermbg=NONE cterm=NONE guifg=#8f9d6a guibg=NONE gui=NONE
 hi Tag ctermfg=95 ctermbg=NONE cterm=NONE guifg=#9b703f guibg=NONE gui=NONE
 hi Title ctermfg=231 ctermbg=NONE cterm=bold guifg=#f8f8f8 guibg=NONE gui=bold
 hi Todo ctermfg=59 ctermbg=NONE cterm=inverse,bold guifg=#5f5a60 guibg=NONE gui=inverse,bold,italic
-hi Type ctermfg=95 ctermbg=NONE cterm=NONE guifg=#9b703f guibg=NONE gui=NONE
+hi Type ctermfg=94 ctermbg=NONE cterm=NONE guifg=#9b703f guibg=NONE gui=NONE
 hi Underlined ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE guibg=NONE gui=underline
 hi rubyClass ctermfg=179 ctermbg=NONE cterm=NONE guifg=#cda869 guibg=NONE gui=NONE
 hi rubyFunction ctermfg=95 ctermbg=NONE cterm=NONE guifg=#9b703f guibg=NONE gui=NONE
