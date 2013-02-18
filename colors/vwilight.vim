@@ -101,3 +101,65 @@ hi cssClassName ctermfg=95 ctermbg=NONE cterm=NONE guifg=#9b703f guibg=NONE gui=
 hi cssValueLength ctermfg=167 ctermbg=NONE cterm=NONE guifg=#cf6a4c guibg=NONE gui=NONE
 hi cssCommonAttr ctermfg=167 ctermbg=NONE cterm=NONE guifg=#cf6a4c guibg=NONE gui=NONE
 hi cssBraces ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
+
+let g:indent_guides_auto_colors = 0
+autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=#262626 ctermbg=234
+autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=#262626 ctermbg=234
+
+if ! has('gui_running')
+    hi String ctermfg=2
+    hi rubyGlobalVariable ctermfg=4
+    hi Identifier ctermfg=3
+    hi Constant ctermfg=1
+    hi Number ctermfg=1
+    hi Boolean ctermfg=1
+    hi link doxygenBrief phpComment
+    hi SpecialComment ctermfg=237
+    hi link phpMethodsVar phpIdentifier
+    "hi link phpType phpFunctions
+    hi link phpClasses Tag
+    hi link phpAssignByRef phpFunctions
+
+    hi Directory ctermfg=6
+    hi NERDTreeDirSlash ctermfg=12
+    hi NERDTreeFile ctermfg=2
+    hi NERDTreeFlag ctermfg=1
+    hi NERDTreeExecFile ctermfg=7
+    hi link sqlKeyword sqlOperator
+
+    hi phpFunctions ctermfg=7
+    hi doxygenOther ctermfg=3
+    hi doxygenSpecial ctermfg=3
+    hi link doxygenSpecialMultilineDesc phpComment
+    hi link doxygenSpecialOnelineDesc phpComment
+    hi doxygenParam ctermfg=3
+    hi doxygenParamName ctermfg=6 cterm=NONE
+    hi doxygenBOther ctermfg=3
+    hi Type ctermfg=13
+    hi Tag ctermfg=5
+    hi Statement ctermfg=3
+    hi Operator ctermfg=3
+    hi phpMemberSelector ctermfg=3
+    hi Function ctermfg=7
+    hi Identifier ctermfg=4
+    hi link phpInclude phpStatement
+
+    hi clear htmlSpecialChar
+    hi link htmlSpecialChar Constant
+
+    hi vimHiTerm ctermfg=7
+    hi PreProc ctermfg=1
+endif
+
+hi IndentGuidesEven ctermbg=234
+hi IndentGuidesOdd  ctermbg=234
+
+" Color Spelling Errors a little better
+hi clear SpellBad
+hi SpellBad cterm=underline ctermbg=NONE ctermfg=124
+hi SpellCap ctermbg=235 ctermfg=NONE
+hi SpellRare ctermbg=235 ctermfg=NONE
+
+hi Search ctermbg=237
+
+
