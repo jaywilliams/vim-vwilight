@@ -108,6 +108,9 @@ hi cssValueLength               ctermfg=167  ctermbg=NONE cterm=NONE         gui
 hi cssCommonAttr                ctermfg=167  ctermbg=NONE cterm=NONE         guifg=#cf6a4c guibg=NONE    gui=NONE
 hi cssBraces                    ctermfg=NONE ctermbg=NONE cterm=NONE         guifg=NONE    guibg=NONE    gui=NONE
 
+hi diffAdded                    ctermfg=107  ctermbg=NONE cterm=NONE         guifg=#8f9d6a guibg=NONE    gui=NONE
+hi diffRemoved                  ctermfg=167  ctermbg=NONE cterm=NONE         guifg=#cf6a4c guibg=NONE    gui=NONE
+
 let g:indent_guides_auto_colors = 0
 autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=#262626 ctermbg=234
 autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=#262626 ctermbg=234
