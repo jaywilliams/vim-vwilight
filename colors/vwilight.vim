@@ -108,8 +108,15 @@ hi cssValueLength               ctermfg=167  ctermbg=NONE cterm=NONE         gui
 hi cssCommonAttr                ctermfg=167  ctermbg=NONE cterm=NONE         guifg=#cf6a4c guibg=NONE    gui=NONE
 hi cssBraces                    ctermfg=NONE ctermbg=NONE cterm=NONE         guifg=NONE    guibg=NONE    gui=NONE
 
+" diff files
 hi diffAdded                    ctermfg=107  ctermbg=NONE cterm=NONE         guifg=#8f9d6a guibg=NONE    gui=NONE
 hi diffRemoved                  ctermfg=167  ctermbg=NONE cterm=NONE         guifg=#cf6a4c guibg=NONE    gui=NONE
+
+" vimdiff
+hi diffAdd                      ctermfg=231  ctermbg=107  cterm=NONE         guifg=#f8f8f8 guibg=#8f9d6a gui=NONE
+hi diffDelete                   ctermfg=231  ctermbg=167  cterm=NONE         guifg=#f8f8f8 guibg=#cf6a4c gui=NONE
+hi diffChange                   ctermfg=231  ctermbg=103  cterm=NONE         guifg=#f8f8f8 guibg=#7587a6 gui=NONE
+hi diffText                     ctermfg=231  ctermbg=139  cterm=NONE         guifg=#f8f8f8 guibg=#af87af gui=NONE
 
 let g:indent_guides_auto_colors = 0
 autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=#262626 ctermbg=234
