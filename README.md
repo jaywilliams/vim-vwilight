@@ -7,7 +7,7 @@ Coloration v0.3.2. Customized and tweaked for the best possible representation.
 
 When I originally switched from TexMate to Vim, I wanted to use the same color
 scheme that I had gotten accutomed to, which was Twilight. However, all of the
-vim Twilight ports that I found were very poor and didn't have the same look
+Vim Twilight ports that I found were very poor and didn't have the same look
 and feel at all.
 
 Then I came across [vwilight](https://gist.github.com/mojombo/796172), which
